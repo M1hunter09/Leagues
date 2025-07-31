@@ -65,3 +65,15 @@ body {
 .back-button:hover {
   background: #2f6de0;
 }
+.gradient-text {
+  font-size: 72px; 
+  
+  background: linear-gradient(to bottom, #FFA500, #FFD700);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  -webkit-text-fill-color: transparent; 
+  color: transparent; 
+}
+
