@@ -58,14 +58,16 @@
   </div>
 
   <script>
-    function goToLeague() {
-      const id = document.getElementById("league-id").value.trim();
-      if (!id) {
-        alert("Please enter a League ID.");
-        return;
-      }
-       window.location.href = `league-view.html`;
-    }
+function goToLeague() {
+  const id = document.getElementById("league-id").value.trim();
+  if (!id) {
+    alert("Please enter a League ID.");
+    return;
+  }
+
+  window.location.href = `league-view.html?id=${encodeURIComponent(id)}`;
+}
+
   </script>
 </body>
 </html>
