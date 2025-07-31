@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #1e1e1e;
+  background-color: #2B0033;
   color: white;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-  background: #1e1e1e;
+  background: #2B0033;
   padding: 20px;
   margin-bottom: 25px;
   border-radius: 12px;
@@ -37,7 +37,7 @@ body {
 
 .card h2 {
   margin-top: 0;
-  color: #ffffff;
+  color: #2B0033;
 }
 
 .item-list {
@@ -54,7 +54,7 @@ body {
 
 .back-button {
   text-decoration: none;
-  background: #3a80f6;
+  background: #12B8FF;
   padding: 10px 20px;
   border-radius: 8px;
   color: white;
