@@ -1,0 +1,48 @@
+{
+  "name": "Chaos Cup",
+  "description": "A Chaotic tournament.",
+  "createdBy": "M1hunter09",
+  "createdAt": "2025-07-31T14:00:00Z",
+  "guildId": "1386084993662582926",
+
+  "teams": [
+    "Vanguard",
+    "FC Valhalla",
+    "ctrl alt Defeat",
+    "Sparta Reborn"
+  ],
+
+  "standings": [
+    { "team": "ctrl alt Defeat", "points": 9 },
+    { "team": "FC Valhalla", "points": 6 },
+    { "team": "Sparta Reborn", "points": 5 },
+    { "team": "Vanguard", "points": 3 }
+  ],
+
+  "matches": [
+    {
+      "teamA": "Sparta Reborn",
+      "scoreA": 2,
+      "scoreB": 1,
+      "teamB": "Vanguard"
+    },
+    {
+      "teamA": "Vanguard",
+      "scoreA": 2,
+      "scoreB": 1,
+      "teamB": "FC Valhalla"
+    },
+   {
+      "teamA": "ctrl alt Defeat",
+      "scoreA": 6,
+      "scoreB": 5,
+      "teamB": "FC Valhalla"
+    },
+    {
+      "teamA": "Sparta Reborn",
+      "scoreA": 3,
+      "scoreB": 2,
+      "teamB": "ctrl alt Defeat"
+    }
+  ]
+}
